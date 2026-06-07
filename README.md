@@ -1,86 +1,34 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+# 💵 Conversor de Moedas (USD para BRL)
 
-body {
-    background-color: #f4f7f6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
+Um projeto simples, leve e direto ao ponto, desenvolvido para praticar a integração dos três pilares do desenvolvimento web front-end: **HTML5**, **CSS3** e **JavaScript (ES6)**.
 
-.converter-container {
-    background-color: #ffffff;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 400px;
-    text-align: center;
-}
+---
 
-h2 {
-    color: #333;
-    margin-bottom: 20px;
-}
+## 🚀 Tecnologias Utilizadas
 
-.input-group {
-    text-align: left;
-    margin-bottom: 20px;
-}
+*   **HTML5:** Estruturação semântica da página e campos de entrada.
+*   **CSS3:** Estilização moderna, responsiva, com uso de *Flexbox* e efeitos de transição.
+*   **JavaScript:** Manipulação do DOM, validação de dados e lógica matemática para conversão e formatação de moedas.
 
-label {
-    display: block;
-    color: #666;
-    margin-bottom: 8px;
-    font-size: 14px;
-}
+---
 
-input {
-    width: 100%;
-    padding: 12px;
-    border: 2px solid #e0e0e0;
-    border-radius: 8px;
-    font-size: 16px;
-    outline: none;
-    transition: border-color 0.3s;
-}
+## 🛠️ Como Executar o Projeto
 
-input:focus {
-    border-color: #2ecc71;
-}
+É muito simples testar o projeto localmente:
 
-button {
-    width: 100%;
-    background-color: #2ecc71;
-    color: white;
-    border: none;
-    padding: 14px;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
+1. Baixe ou clone os arquivos deste repositório.
+2. Certifique-se de que os três arquivos (`index.html`, `style.css` e `script.js`) estão na **mesma pasta**.
+3. Dê um duplo clique no arquivo `index.html` para abri-lo diretamente no seu navegador.
 
-button:hover {
-    background-color: #27ae60;
-}
+---
 
-.result-box {
-    margin-top: 25px;
-    padding: 15px;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    border-left: 5px solid #2ecc71;
-}
+## 🧠 Aprendizados Aplicados
 
-#resultText {
-    font-size: 18px;
-    color: #444;
-    font-weight: 500;
-}
+Neste exercício prático, pude treinar conceitos essenciais como:
+*   Captura de eventos de clique com `addEventListener`.
+*   Validação de dados de entrada (`isNaN` e condicionais).
+*   Formatação de números para moedas locais usando `toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })`.
+*   Estilização de estados com seletores CSS (como o `:hover` e `:focus`).
+
+---
+Desenvolvido para fins de estudo e prática. 💻✨
